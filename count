@@ -1,0 +1,9 @@
+echo "Enter the file name"
+read file
+w=`cat $file | wc -w`
+c=`cat $file | wc -c`
+l=`grep -c "." $file`
+echo "number of charcater in $file is $c"
+echo "number of words in $file is $w"
+echo "number of lines in $file is $l"
+

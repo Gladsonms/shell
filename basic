@@ -1,0 +1,10 @@
+echo "Enter your salary "
+read sal
+da=`expr  $sal \* 40 / 100`
+ha=`expr $sal \* 20 / 100`
+Nsal=`expr $sal + $da + $ha`
+echo "your basic salary: $sal"
+echo " yor darkness allowed: $da"
+echo "your house rent allowes: $ha"
+echo "             ---------------"
+echo "Your net salary is rs. $Nsal"
